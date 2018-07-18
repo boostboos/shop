@@ -1,0 +1,34 @@
+body{
+	background-image: url(../images/login_bg_0.jpg);
+}
+header{
+		text-align: center;
+}
+header h1{
+	font-family: "微软雅黑";
+}
+header span{
+	font-size: 30px;
+	color: white;
+}
+
+.loginbg{
+	background-image: url(../images/login_bg.png);
+	background-repeat: no-repeat;
+	height: 479px;
+	text-align: center;
+}
+
+.loginbg img{
+	margin-top: 26px;
+}
+
+.login-form{
+	margin: 50px;
+}
+.input-group{
+	margin-top: 10px;
+}
+.input-group,.login-btn{
+	margin-top: 10px;
+}

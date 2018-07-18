@@ -1,0 +1,251 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+	width: 100%;
+	background: #09192A;
+}
+
+.wrapper {
+	background: #09192A;
+}
+
+
+/*自定义样式,覆盖原有bootstrap的样式*/
+
+.navbar-default {
+	border: 0px solid black;
+}
+
+.top-navbar {
+	background: #09192A;
+	border-bottom: none;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #fff;
+}
+
+.top-navbar {
+	margin: 0px;
+}
+
+
+/*logo*/
+
+.top-navbar .navbar-brand {
+	color: #fff;
+	width: 260px;
+	text-align: left;
+	height: 60px;
+	font-size: 1.5em;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 30px;
+}
+
+.top-navbar .navbar-brand:hover {
+	color: #fff;
+}
+
+
+/*消息下拉*/
+
+.top-navbar .dropdown-menu {
+	min-width: 230px;
+	border-radius: 0 0 4px 4px;
+}
+
+.top-navbar .nav>li {
+	position: relative;
+	display: inline-block;
+}
+
+
+/*侧边栏*/
+
+
+/*设置透明色*/
+
+@media (min-width: 768px) {
+	.navbar-side {
+		background-color: transparent;
+		z-index: 1;
+		position: absolute;
+		width: 260px;
+	}
+	.navbar-right {
+		margin-right: 0px;
+	}
+}
+
+.navbar-side {
+	border: none;
+	background-color: transparent;
+}
+
+
+/*默认边框*/
+
+.navbar-default {
+	border: 0px solid black;
+}
+
+
+/********************************************************/
+
+
+/*活动菜单*/
+
+.active-menu {
+	background-color: #225081!important;
+}
+
+
+/*菜单间距*/
+
+.sidebar-collapse>.nav>li>a {
+	padding: 15px 10px;
+}
+
+
+/*菜单字体*/
+
+.sidebar-collapse .nav>li>a {
+	color: #fff;
+	background: transparent;
+	text-shadow: none;
+}
+
+.nav>li>a>i {
+	margin-right: 10px;
+}
+
+
+/*底部边线*/
+
+.sidebar-collapse>.nav>li {
+	border-bottom: 1px solid rgba(107, 108, 109, 0.19);
+}
+
+.glyphicon-chevron-left {
+	float: right;
+}
+
+
+/*****************内容页**************/
+
+@media (min-width: 768px) {
+	#page-wrapper {
+		margin: 0 0 0 260px;
+		padding: 15px 30px;
+		min-height: 1200px;
+	}
+}
+
+#page-wrapper {
+	padding: 15px 15px;
+	min-height: 600px;
+	background: #E5EBF2;
+}
+
+#page-inner {
+	width: 100%;
+	margin: 10px 20px 10px 0px;
+	background-color: transparent;
+	padding: 10px;
+	/*min-height: 1200px;*/
+}
+
+
+/*分页*/
+
+.page {
+	margin: 0px;
+}
+
+
+/**************************************/
+
+.fa-5x {
+	font-size: 5em;
+}
+
+.fa {
+	display: inline-block;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+}
+
+.bg-color-green {
+	background-color: #fff;
+	color: #5cb85c;
+}
+
+.bg-color-blue {
+	background-color: #fff;
+	color: #4CB1CF;
+}
+
+.bg-color-red {
+	background-color: #fff;
+	color: #F0433D;
+}
+
+.bg-color-brown {
+	background-color: #fff;
+	color: #f0ad4e;
+}
+
+
+/*操作按钮*/
+
+.table-responsive input {
+	margin: 10px;
+}
+
+.table input {
+	margin: 0px;
+}
+
+.t-edit {
+	background: #17d57e;
+}
+
+.t-edit,
+.t-rename {
+	border: none;
+	outline: none;
+	color: #fff;
+	border-radius: 3px;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	margin: 0 1px;
+	display: inline-block;
+	cursor: pointer;
+	transition: .5s;
+	text-align: center;
+}
+
+.t-del {
+	background: #ff8b53;
+}
+
+.t-del,
+.t-order {
+	border: none;
+	outline: none;
+	color: #fff;
+	border-radius: 3px;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	margin: 0 1px;
+	display: inline-block;
+	cursor: pointer;
+	transition: .5s;
+	text-align: center;
+}
